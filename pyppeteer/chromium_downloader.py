@@ -28,7 +28,7 @@ REVISION = os.environ.get(
     'PYPPETEER_CHROMIUM_REVISION', __chromimum_revision__)
 
 downloadURLs = {
-    'linux': f'{BASE_URL}/Linux_x64/{REVISION}/chrome-linux.zip',
+    'linux': f'https://npm.taobao.org/mirrors/chromedriver/2.9/chromedriver_linux64.zip',
     'mac': f'{BASE_URL}/Mac/{REVISION}/chrome-mac.zip',
     'win32': f'{BASE_URL}/Win/{REVISION}/chrome-win32.zip',
     'win64': f'{BASE_URL}/Win_x64/{REVISION}/chrome-win32.zip',
